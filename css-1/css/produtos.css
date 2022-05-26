@@ -1,5 +1,5 @@
 header {
-	background: blue;
+	background: rgb(95,95,95);
 	padding: 20px 0;
 }
 
@@ -22,7 +22,7 @@ nav li {
 
 nav a {
 	text-transform: uppercase;
-	color:  black;
+	color:  rgb(35,35,35);
 	font-weight: bold;
 	font-size: 25px;
 	text-decoration: none;
@@ -81,12 +81,12 @@ nav a:hover {
 
 footer{
 	text-align: center;
-	background: url("bg.jpg");
+	background: url("../image/bg.jpg");
 	padding: 40px 0;
 }
 
 .copyright {
-	color: #FFFFFF;
+	color: #ffffff;
 	font-size: 13px;
 	margin: 20px 0 0;
 }
