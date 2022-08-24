@@ -1,0 +1,134 @@
+header {
+	background: url("../image/bg.jpg");
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 910px;
+	margin: 0 auto;
+	margin-left: 160px;
+}
+
+nav {
+	position: absolute;
+	top: 90px;
+	right: 0;
+}
+
+nav li {
+	display: flex;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color:  rgb(255,255,255);
+	font-weight: bold;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: rgb(255,0,0);
+	text-decoration: underline;
+}
+
+.produtos{
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.titulo-centralizado h2 {
+ text-align: center;
+}
+
+ul {
+ display: inline-block;
+ vertical-align: top;
+ width: 20%;
+ margin-right: 5px;
+}
+
+.produtos li {
+	display: inline-block;
+	color: rgb(35,35,35);
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 3px solid rgb(0,0,0);
+	border-radius: 30px;
+}
+
+.produtos li:hover {
+	border-color: rgb(255,0,0);
+}
+
+.produtos li:active {
+	border-color: rgb(255,255,0);
+}
+
+.produtos li:hover h2 {
+	font-size: 35px;
+}
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.produto-descricao {
+	font-size: 18px;
+}
+
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+footer{
+	text-align: center;
+	background: url("../image/bg.jpg");
+	padding: 40px 0;
+}
+
+.copyright {
+	color: rgb(255,255,255);
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+main {
+		width: 940px;
+		margin: 0 auto;
+}
+
+form {
+		margin: 40px 0;	
+}
+
+form label, form p {
+		display: block;
+		font-size: 20px;
+		margin: 0 0 5px;
+}
+
+.input-padrao {
+		display: block;
+		margin: 0 0 20px;
+		padding: 10px 25px;
+		width: 60%;
+}
+
+#horario { 
+	margin: 15px 0 10px 0 ;
+}
+
+.checkbox{
+	margin: 20px 0;
+}
